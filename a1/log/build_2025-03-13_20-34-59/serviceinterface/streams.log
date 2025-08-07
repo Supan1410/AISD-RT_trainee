@@ -1,0 +1,234 @@
+[0.024s] Invoking command in '/home/supan/RT/aisd/a1/build/serviceinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake /home/supan/RT/aisd/a1/src/serviceinterface -DCMAKE_INSTALL_PREFIX=/home/supan/RT/aisd/a1/install/serviceinterface
+[0.187s] -- The C compiler identification is GNU 11.4.0
+[0.378s] -- The CXX compiler identification is GNU 11.4.0
+[0.391s] -- Detecting C compiler ABI info
+[0.514s] -- Detecting C compiler ABI info - done
+[0.529s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.530s] -- Detecting C compile features
+[0.532s] -- Detecting C compile features - done
+[0.538s] -- Detecting CXX compiler ABI info
+[0.701s] -- Detecting CXX compiler ABI info - done
+[0.714s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.714s] -- Detecting CXX compile features
+[0.715s] -- Detecting CXX compile features - done
+[0.728s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.089s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.289s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.309s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.967s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.759s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.762s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.820s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.821s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.821s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.821s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.861s] -- Found PythonExtra: .so  
+[2.919s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.948s] -- Added test 'lint_cmake' to check CMake code style
+[2.950s] -- Added test 'xmllint' to check XML markup files
+[2.953s] -- Configuring done
+[2.992s] -- Generating done
+[3.007s] -- Build files have been written to: /home/supan/RT/aisd/a1/build/serviceinterface
+[3.015s] Invoked command in '/home/supan/RT/aisd/a1/build/serviceinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake /home/supan/RT/aisd/a1/src/serviceinterface -DCMAKE_INSTALL_PREFIX=/home/supan/RT/aisd/a1/install/serviceinterface
+[3.018s] Invoking command in '/home/supan/RT/aisd/a1/build/serviceinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/supan/RT/aisd/a1/build/serviceinterface -- -j12 -l12
+[3.089s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.108s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.126s] [  6%] Built target ament_cmake_python_copy_serviceinterface
+[3.606s] running egg_info
+[3.607s] creating serviceinterface.egg-info
+[3.608s] writing serviceinterface.egg-info/PKG-INFO
+[3.608s] writing dependency_links to serviceinterface.egg-info/dependency_links.txt
+[3.609s] writing top-level names to serviceinterface.egg-info/top_level.txt
+[3.609s] writing manifest file 'serviceinterface.egg-info/SOURCES.txt'
+[3.614s] reading manifest file 'serviceinterface.egg-info/SOURCES.txt'
+[3.615s] writing manifest file 'serviceinterface.egg-info/SOURCES.txt'
+[3.616s] [  9%] [32mBuilding C object CMakeFiles/serviceinterface__rosidl_generator_c.dir/rosidl_generator_c/serviceinterface/srv/detail/getk__functions.c.o[0m
+[3.669s] [  9%] Built target ament_cmake_python_build_serviceinterface_egg
+[3.736s] [  9%] Built target serviceinterface__cpp
+[3.757s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.757s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.757s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.762s] [ 22%] [32m[1mLinking C shared library libserviceinterface__rosidl_generator_c.so[0m
+[3.845s] [ 22%] Built target serviceinterface__rosidl_generator_c
+[3.865s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.870s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.870s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.265s] [ 35%] [32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serviceinterface/srv/getk__type_support.cpp.o[0m
+[4.414s] [ 38%] [32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serviceinterface/srv/detail/getk__type_support.cpp.o[0m
+[4.477s] [ 41%] [32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serviceinterface/srv/detail/dds_fastrtps/getk__type_support.cpp.o[0m
+[4.506s] [ 45%] [32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_c.dir/rosidl_typesupport_c/serviceinterface/srv/getk__type_support.cpp.o[0m
+[4.513s] [ 48%] [32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serviceinterface/srv/detail/getk__type_support.c.o[0m
+[4.524s] [ 51%] [32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serviceinterface/srv/detail/getk__type_support_c.cpp.o[0m
+[4.590s] [ 54%] [32m[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_c.so[0m
+[4.595s] [ 58%] [32m[1mLinking C shared library libserviceinterface__rosidl_typesupport_introspection_c.so[0m
+[4.672s] [ 58%] Built target serviceinterface__rosidl_typesupport_introspection_c
+[4.700s] [ 58%] Built target serviceinterface__rosidl_typesupport_c
+[4.918s] [ 61%] [32m[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_cpp.so[0m
+[5.019s] [ 61%] Built target serviceinterface__rosidl_typesupport_cpp
+[5.276s] [ 64%] [32m[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_introspection_cpp.so[0m
+[5.286s] [ 67%] [32m[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_fastrtps_c.so[0m
+[5.292s] [ 70%] [32m[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.383s] [ 70%] Built target serviceinterface__rosidl_typesupport_introspection_cpp
+[5.454s] [ 70%] Built target serviceinterface__rosidl_typesupport_fastrtps_c
+[5.466s] [ 70%] Built target serviceinterface__rosidl_typesupport_fastrtps_cpp
+[5.499s] [ 70%] Built target serviceinterface
+[5.531s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.065s] [ 74%] Built target serviceinterface__py
+[6.100s] [ 77%] [32mBuilding C object CMakeFiles/serviceinterface__rosidl_generator_py.dir/rosidl_generator_py/serviceinterface/srv/_getk_s.c.o[0m
+[6.294s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/serviceinterface/libserviceinterface__rosidl_generator_py.so[0m
+[6.365s] [ 80%] Built target serviceinterface__rosidl_generator_py
+[6.399s] [ 83%] [32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_c.c.o[0m
+[6.399s] [ 87%] [32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.401s] [ 90%] [32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.578s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.581s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.614s] [100%] [32m[1mLinking C shared library rosidl_generator_py/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.640s] [100%] Built target serviceinterface__rosidl_typesupport_c__pyext
+[6.641s] [100%] Built target serviceinterface__rosidl_typesupport_introspection_c__pyext
+[6.681s] [100%] Built target serviceinterface__rosidl_typesupport_fastrtps_c__pyext
+[6.701s] Invoked command in '/home/supan/RT/aisd/a1/build/serviceinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/supan/RT/aisd/a1/build/serviceinterface -- -j12 -l12
+[6.718s] Invoking command in '/home/supan/RT/aisd/a1/build/serviceinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/supan/RT/aisd/a1/build/serviceinterface
+[6.730s] -- Install configuration: ""
+[6.731s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/rosidl_interfaces/serviceinterface
+[6.731s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface
+[6.731s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv
+[6.731s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/getk.h
+[6.732s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail
+[6.732s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__struct.h
+[6.732s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.h
+[6.732s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__functions.h
+[6.732s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__functions.c
+[6.732s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg
+[6.733s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_generator_c__visibility_control.h
+[6.733s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/library_path.sh
+[6.733s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/library_path.dsv
+[6.734s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_c.so
+[6.734s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_c.so" to ""
+[6.735s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface
+[6.735s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv
+[6.735s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail
+[6.735s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_fastrtps_c.h
+[6.735s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg
+[6.735s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.735s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_c.so
+[6.736s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_c.so" to ""
+[6.736s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface
+[6.736s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv
+[6.736s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail
+[6.736s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_introspection_c.h
+[6.737s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.c
+[6.737s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg
+[6.737s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.737s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_c.so
+[6.738s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_c.so" to ""
+[6.738s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_c.so
+[6.738s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_c.so" to ""
+[6.738s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface
+[6.738s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv
+[6.738s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/getk.hpp
+[6.738s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail
+[6.739s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__traits.hpp
+[6.739s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__builder.hpp
+[6.739s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__struct.hpp
+[6.739s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.hpp
+[6.739s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg
+[6.739s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.739s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface
+[6.739s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv
+[6.739s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail
+[6.739s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/dds_fastrtps
+[6.740s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_fastrtps_cpp.hpp
+[6.740s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg
+[6.740s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.740s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_cpp.so
+[6.740s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.740s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface
+[6.740s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv
+[6.740s] -- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail
+[6.740s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.cpp
+[6.740s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_introspection_cpp.hpp
+[6.740s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_cpp.so
+[6.741s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_cpp.so" to ""
+[6.741s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_cpp.so
+[6.741s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_cpp.so" to ""
+[6.741s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/pythonpath.sh
+[6.741s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/pythonpath.dsv
+[6.741s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info
+[6.742s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/top_level.txt
+[6.742s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/PKG-INFO
+[6.742s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.742s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.743s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface
+[6.743s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.743s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/libserviceinterface__rosidl_generator_py.so
+[6.743s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.743s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.744s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_introspection_c.c
+[6.744s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv
+[6.744s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/_getk.py
+[6.744s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/__init__.py
+[6.745s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/_getk_s.c
+[6.745s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.745s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/__init__.py
+[6.745s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_c.c
+[6.806s] Listing '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface'...
+[6.806s] Compiling '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/__init__.py'...
+[6.807s] Listing '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv'...
+[6.807s] Compiling '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/__init__.py'...
+[6.807s] Compiling '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/_getk.py'...
+[6.815s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.815s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.815s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.816s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.816s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.817s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.817s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_py.so
+[6.817s] -- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_py.so" to ""
+[6.818s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk.idl
+[6.818s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk.srv
+[6.818s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk_Request.msg
+[6.818s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk_Response.msg
+[6.818s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/package_run_dependencies/serviceinterface
+[6.818s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/parent_prefix_path/serviceinterface
+[6.818s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/ament_prefix_path.sh
+[6.819s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/ament_prefix_path.dsv
+[6.819s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/path.sh
+[6.819s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/path.dsv
+[6.819s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.bash
+[6.819s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.sh
+[6.819s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.zsh
+[6.819s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.dsv
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.dsv
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/packages/serviceinterface
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_cExport.cmake
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_cExport-noconfig.cmake
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cExport.cmake
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cExport.cmake
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.820s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cExport.cmake
+[6.821s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cExport-noconfig.cmake
+[6.821s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_cppExport.cmake
+[6.821s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.821s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.821s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cppExport.cmake
+[6.821s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.821s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cppExport.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cppExport-noconfig.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_pyExport.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_pyExport-noconfig.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/rosidl_cmake-extras.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_targets-extras.cmake
+[6.822s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.823s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.823s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.823s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterfaceConfig.cmake
+[6.823s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterfaceConfig-version.cmake
+[6.823s] -- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.xml
+[6.827s] Invoked command in '/home/supan/RT/aisd/a1/build/serviceinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/supan/RT/aisd/a1/build/serviceinterface

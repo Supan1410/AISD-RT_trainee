@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating con.egg-info
+writing con.egg-info/PKG-INFO
+writing dependency_links to con.egg-info/dependency_links.txt
+writing entry points to con.egg-info/entry_points.txt
+writing requirements to con.egg-info/requires.txt
+writing top-level names to con.egg-info/top_level.txt
+writing manifest file 'con.egg-info/SOURCES.txt'
+reading manifest file 'con.egg-info/SOURCES.txt'
+writing manifest file 'con.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con.egg-link (link to .)
+Installing ee script to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/con
+
+Installed /home/supan/RT/aisd/robot_arm_ws_dup/build/con
+running symlink_data
+creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index
+creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index/resource_index
+creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index/resource_index/packages
+symbolically linking /home/supan/RT/aisd/robot_arm_ws_dup/build/con/resource/con -> /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index/resource_index/packages
+symbolically linking /home/supan/RT/aisd/robot_arm_ws_dup/build/con/package.xml -> /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/con

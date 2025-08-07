@@ -1,0 +1,5 @@
+[console_scripts]
+cli = con.cli:main
+ee = con.ee:main
+id = con.imudata:main
+

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from anint/srv/Ang.srv
+// generated code does not contain a copyright notice
+
+
+module anint {
+  module srv {
+    struct Ang_Request {
+      float t1;
+
+      float t2;
+    };
+    struct Ang_Response {
+      float x;
+
+      float y;
+    };
+  };
+};

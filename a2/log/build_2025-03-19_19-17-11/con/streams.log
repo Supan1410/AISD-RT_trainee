@@ -1,0 +1,23 @@
+[0.507s] Invoking command in '/home/supan/RT/aisd/robot_arm_ws_dup/src/con': PYTHONPATH=/home/supan/RT/aisd/robot_arm_ws_dup/build/con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/con build --build-base /home/supan/RT/aisd/robot_arm_ws_dup/build/con/build install --record /home/supan/RT/aisd/robot_arm_ws_dup/build/con/install.log --single-version-externally-managed install_data
+[0.669s] running egg_info
+[0.669s] writing ../../build/con/con.egg-info/PKG-INFO
+[0.669s] writing dependency_links to ../../build/con/con.egg-info/dependency_links.txt
+[0.669s] writing entry points to ../../build/con/con.egg-info/entry_points.txt
+[0.669s] writing requirements to ../../build/con/con.egg-info/requires.txt
+[0.669s] writing top-level names to ../../build/con/con.egg-info/top_level.txt
+[0.670s] reading manifest file '../../build/con/con.egg-info/SOURCES.txt'
+[0.670s] adding license file 'LICENSE'
+[0.670s] writing manifest file '../../build/con/con.egg-info/SOURCES.txt'
+[0.671s] running build
+[0.671s] running build_py
+[0.671s] running install
+[0.671s] running install_lib
+[0.672s] running install_data
+[0.672s] running install_egg_info
+[0.673s] removing '/home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con-0.0.0-py3.10.egg-info' (and everything under it)
+[0.673s] Copying ../../build/con/con.egg-info to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con-0.0.0-py3.10.egg-info
+[0.673s] running install_scripts
+[0.687s] Installing cli script to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/con
+[0.687s] Installing ee script to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/con
+[0.687s] writing list of installed files to '/home/supan/RT/aisd/robot_arm_ws_dup/build/con/install.log'
+[0.705s] Invoked command in '/home/supan/RT/aisd/robot_arm_ws_dup/src/con' returned '0': PYTHONPATH=/home/supan/RT/aisd/robot_arm_ws_dup/build/con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/con build --build-base /home/supan/RT/aisd/robot_arm_ws_dup/build/con/build install --record /home/supan/RT/aisd/robot_arm_ws_dup/build/con/install.log --single-version-externally-managed install_data

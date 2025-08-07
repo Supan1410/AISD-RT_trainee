@@ -1,0 +1,6 @@
+{
+  "package_name": "anint",
+  "non_idl_tuples": [
+    "/home/supan/RT/aisd/robot_arm_ws_dup/src/anint:srv/Ang.srv"
+  ]
+}

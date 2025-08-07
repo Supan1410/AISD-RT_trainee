@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing con.egg-info/PKG-INFO
+writing dependency_links to con.egg-info/dependency_links.txt
+writing entry points to con.egg-info/entry_points.txt
+writing requirements to con.egg-info/requires.txt
+writing top-level names to con.egg-info/top_level.txt
+reading manifest file 'con.egg-info/SOURCES.txt'
+writing manifest file 'con.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con.egg-link (link to .)
+Installing ee script to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/con
+
+Installed /home/supan/RT/aisd/robot_arm_ws_dup/build/con
+running symlink_data

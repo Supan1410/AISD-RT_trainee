@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "serviceinterface__py",
+		"source" : "/home/supan/RT/aisd/a1/build/serviceinterface/serviceinterface__py"
+	}
+}

@@ -1,0 +1,4 @@
+source;share/anint/local_setup.bash
+source;share/anint/local_setup.dsv
+source;share/anint/local_setup.sh
+source;share/anint/local_setup.zsh

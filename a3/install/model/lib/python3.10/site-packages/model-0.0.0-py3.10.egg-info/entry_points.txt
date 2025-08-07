@@ -1,0 +1,4 @@
+[console_scripts]
+md = model.md:main
+vis = model.vis:main
+

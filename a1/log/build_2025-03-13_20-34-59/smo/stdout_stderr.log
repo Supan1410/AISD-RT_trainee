@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/smo/smo.egg-info
+writing ../../build/smo/smo.egg-info/PKG-INFO
+writing dependency_links to ../../build/smo/smo.egg-info/dependency_links.txt
+writing entry points to ../../build/smo/smo.egg-info/entry_points.txt
+writing requirements to ../../build/smo/smo.egg-info/requires.txt
+writing top-level names to ../../build/smo/smo.egg-info/top_level.txt
+writing manifest file '../../build/smo/smo.egg-info/SOURCES.txt'
+reading manifest file '../../build/smo/smo.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/smo/smo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/supan/RT/aisd/a1/build/smo/build
+creating /home/supan/RT/aisd/a1/build/smo/build/lib
+creating /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+copying smo/client_node.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+copying smo/__init__.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+copying smo/smo_node.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+copying smo/marker.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+running install
+running install_lib
+creating /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/client_node.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/__init__.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/smo_node.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/marker.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/client_node.py to client_node.cpython-310.pyc
+byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/smo_node.py to smo_node.cpython-310.pyc
+byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/marker.py to marker.cpython-310.pyc
+running install_data
+creating /home/supan/RT/aisd/a1/install/smo/share/ament_index
+creating /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index
+creating /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index/packages
+copying resource/smo -> /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index/packages
+copying package.xml -> /home/supan/RT/aisd/a1/install/smo/share/smo
+running install_egg_info
+Copying ../../build/smo/smo.egg-info to /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cl script to /home/supan/RT/aisd/a1/install/smo/lib/smo
+Installing ma script to /home/supan/RT/aisd/a1/install/smo/lib/smo
+Installing sm script to /home/supan/RT/aisd/a1/install/smo/lib/smo
+writing list of installed files to '/home/supan/RT/aisd/a1/build/smo/install.log'

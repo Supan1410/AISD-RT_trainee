@@ -1,0 +1,1 @@
+/home/supan/RT/aisd/robot_arm_ws_dup/build/robot_arm/ament_cmake_environment_hooks/local_setup.bash

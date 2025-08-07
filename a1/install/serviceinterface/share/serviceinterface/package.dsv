@@ -1,0 +1,11 @@
+source;share/serviceinterface/hook/cmake_prefix_path.ps1
+source;share/serviceinterface/hook/cmake_prefix_path.dsv
+source;share/serviceinterface/hook/cmake_prefix_path.sh
+source;share/serviceinterface/hook/ld_library_path_lib.ps1
+source;share/serviceinterface/hook/ld_library_path_lib.dsv
+source;share/serviceinterface/hook/ld_library_path_lib.sh
+source;share/serviceinterface/local_setup.bash
+source;share/serviceinterface/local_setup.dsv
+source;share/serviceinterface/local_setup.ps1
+source;share/serviceinterface/local_setup.sh
+source;share/serviceinterface/local_setup.zsh

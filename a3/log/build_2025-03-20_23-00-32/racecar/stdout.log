@@ -1,0 +1,36 @@
+running develop
+Removing /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar.egg-link (link to .)
+running egg_info
+writing ../../build/racecar/racecar.egg-info/PKG-INFO
+writing dependency_links to ../../build/racecar/racecar.egg-info/dependency_links.txt
+writing entry points to ../../build/racecar/racecar.egg-info/entry_points.txt
+writing requirements to ../../build/racecar/racecar.egg-info/requires.txt
+writing top-level names to ../../build/racecar/racecar.egg-info/top_level.txt
+reading manifest file '../../build/racecar/racecar.egg-info/SOURCES.txt'
+writing manifest file '../../build/racecar/racecar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/supan/RT/aisd/a3/build/racecar/build
+creating /home/supan/RT/aisd/a3/build/racecar/build/lib
+creating /home/supan/RT/aisd/a3/build/racecar/build/lib/racecar
+copying racecar/__init__.py -> /home/supan/RT/aisd/a3/build/racecar/build/lib/racecar
+copying racecar/control.py -> /home/supan/RT/aisd/a3/build/racecar/build/lib/racecar
+running install
+running install_lib
+creating /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar
+copying /home/supan/RT/aisd/a3/build/racecar/build/lib/racecar/__init__.py -> /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar
+copying /home/supan/RT/aisd/a3/build/racecar/build/lib/racecar/control.py -> /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar
+byte-compiling /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar/control.py to control.cpython-310.pyc
+running install_data
+copying resource/racecar -> /home/supan/RT/aisd/a3/install/racecar/share/ament_index/resource_index/packages
+copying package.xml -> /home/supan/RT/aisd/a3/install/racecar/share/racecar
+copying launch/iitb_racecar.launch.py -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/launch
+copying launch/joint_controller.launch.py -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/launch
+copying launch/robot_state_publisher.launch.py -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/launch
+copying config/racecar_control.yaml -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/config
+running install_egg_info
+Copying ../../build/racecar/racecar.egg-info to /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control script to /home/supan/RT/aisd/a3/install/racecar/lib/racecar
+writing list of installed files to '/home/supan/RT/aisd/a3/build/racecar/install.log'

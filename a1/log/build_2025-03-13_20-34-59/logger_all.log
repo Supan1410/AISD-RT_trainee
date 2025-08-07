@@ -1,0 +1,201 @@
+[0.188s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.188s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e812dd465c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e812dd45f90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e812dd45f90>>, mixin_verb=('build',))
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.481s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/supan/RT/aisd/a1'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/serviceinterface) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serviceinterface' with type 'ros.ament_cmake' and name 'serviceinterface'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/smo) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smo' with type 'ros.ament_python' and name 'smo'
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/supan/RT/sim/install
+[0.557s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'cmake_target' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'cmake_clean_first' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'cmake_force_configure' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'ament_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'serviceinterface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.617s] DEBUG:colcon.colcon_core.verb:Building package 'serviceinterface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/supan/RT/aisd/a1/build/serviceinterface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/supan/RT/aisd/a1/install/serviceinterface', 'merge_install': False, 'path': '/home/supan/RT/aisd/a1/src/serviceinterface', 'symlink_install': False, 'test_result_base': None}
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'cmake_target' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'cmake_clean_first' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'cmake_force_configure' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'ament_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'smo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.618s] DEBUG:colcon.colcon_core.verb:Building package 'smo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/supan/RT/aisd/a1/build/smo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/supan/RT/aisd/a1/install/smo', 'merge_install': False, 'path': '/home/supan/RT/aisd/a1/src/smo', 'symlink_install': False, 'test_result_base': None}
+[0.618s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/supan/RT/aisd/a1/src/serviceinterface' with build type 'ament_cmake'
+[0.621s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/supan/RT/aisd/a1/src/serviceinterface'
+[0.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.629s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/supan/RT/aisd/a1/src/smo' with build type 'ament_python'
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('smo', 'ament_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/smo/share/smo/hook/ament_prefix_path.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supan/RT/aisd/a1/install/smo/share/smo/hook/ament_prefix_path.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/smo/share/smo/hook/ament_prefix_path.sh'
+[0.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/supan/RT/aisd/a1/build/serviceinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake /home/supan/RT/aisd/a1/src/serviceinterface -DCMAKE_INSTALL_PREFIX=/home/supan/RT/aisd/a1/install/serviceinterface
+[1.203s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/supan/RT/aisd/a1/src/smo'
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/supan/RT/aisd/a1/src/smo': PYTHONPATH=/home/supan/RT/aisd/a1/build/smo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smo build --build-base /home/supan/RT/aisd/a1/build/smo/build install --record /home/supan/RT/aisd/a1/build/smo/install.log --single-version-externally-managed install_data
+[2.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/supan/RT/aisd/a1/src/smo' returned '0': PYTHONPATH=/home/supan/RT/aisd/a1/build/smo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smo build --build-base /home/supan/RT/aisd/a1/build/smo/build install --record /home/supan/RT/aisd/a1/build/smo/install.log --single-version-externally-managed install_data
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/smo' for CMake module files
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/smo' for CMake config files
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/smo/lib'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/smo/bin'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/smo/lib/pkgconfig/smo.pc'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages'
+[2.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('smo', 'pythonpath')
+[2.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/smo/share/smo/hook/pythonpath.ps1'
+[2.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supan/RT/aisd/a1/install/smo/share/smo/hook/pythonpath.dsv'
+[2.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/smo/share/smo/hook/pythonpath.sh'
+[2.528s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/smo/bin'
+[2.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smo)
+[2.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/smo/share/smo/package.ps1'
+[2.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/supan/RT/aisd/a1/install/smo/share/smo/package.dsv'
+[2.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/smo/share/smo/package.sh'
+[2.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/smo/share/smo/package.bash'
+[2.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/smo/share/smo/package.zsh'
+[2.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/supan/RT/aisd/a1/install/smo/share/colcon-core/packages/smo)
+[3.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/supan/RT/aisd/a1/build/serviceinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake /home/supan/RT/aisd/a1/src/serviceinterface -DCMAKE_INSTALL_PREFIX=/home/supan/RT/aisd/a1/install/serviceinterface
+[3.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/supan/RT/aisd/a1/build/serviceinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/supan/RT/aisd/a1/build/serviceinterface -- -j12 -l12
+[7.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/supan/RT/aisd/a1/build/serviceinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/supan/RT/aisd/a1/build/serviceinterface -- -j12 -l12
+[7.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/supan/RT/aisd/a1/build/serviceinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/supan/RT/aisd/a1/build/serviceinterface
+[7.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serviceinterface)
+[7.447s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface' for CMake module files
+[7.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/supan/RT/aisd/a1/build/serviceinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/supan/RT/aisd/a1/build/serviceinterface
+[7.449s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface' for CMake config files
+[7.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('serviceinterface', 'cmake_prefix_path')
+[7.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/cmake_prefix_path.ps1'
+[7.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/cmake_prefix_path.dsv'
+[7.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/cmake_prefix_path.sh'
+[7.453s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/lib'
+[7.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('serviceinterface', 'ld_library_path_lib')
+[7.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/ld_library_path_lib.ps1'
+[7.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/ld_library_path_lib.dsv'
+[7.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/ld_library_path_lib.sh'
+[7.455s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/bin'
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/lib/pkgconfig/serviceinterface.pc'
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/lib/python3.10/site-packages'
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/bin'
+[7.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.ps1'
+[7.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.dsv'
+[7.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.sh'
+[7.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.bash'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.zsh'
+[7.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/supan/RT/aisd/a1/install/serviceinterface/share/colcon-core/packages/serviceinterface)
+[7.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serviceinterface)
+[7.461s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface' for CMake module files
+[7.462s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface' for CMake config files
+[7.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('serviceinterface', 'cmake_prefix_path')
+[7.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/cmake_prefix_path.ps1'
+[7.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/cmake_prefix_path.dsv'
+[7.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/cmake_prefix_path.sh'
+[7.465s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/lib'
+[7.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('serviceinterface', 'ld_library_path_lib')
+[7.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/ld_library_path_lib.ps1'
+[7.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/ld_library_path_lib.dsv'
+[7.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/hook/ld_library_path_lib.sh'
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/bin'
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/lib/pkgconfig/serviceinterface.pc'
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/lib/python3.10/site-packages'
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/supan/RT/aisd/a1/install/serviceinterface/bin'
+[7.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.ps1'
+[7.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.dsv'
+[7.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.sh'
+[7.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.bash'
+[7.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.zsh'
+[7.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/supan/RT/aisd/a1/install/serviceinterface/share/colcon-core/packages/serviceinterface)
+[7.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.472s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.480s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.499s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supan/RT/aisd/a1/install/local_setup.ps1'
+[7.502s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/supan/RT/aisd/a1/install/_local_setup_util_ps1.py'
+[7.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supan/RT/aisd/a1/install/setup.ps1'
+[7.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supan/RT/aisd/a1/install/local_setup.sh'
+[7.506s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/supan/RT/aisd/a1/install/_local_setup_util_sh.py'
+[7.507s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supan/RT/aisd/a1/install/setup.sh'
+[7.509s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supan/RT/aisd/a1/install/local_setup.bash'
+[7.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supan/RT/aisd/a1/install/setup.bash'
+[7.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supan/RT/aisd/a1/install/local_setup.zsh'
+[7.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supan/RT/aisd/a1/install/setup.zsh'

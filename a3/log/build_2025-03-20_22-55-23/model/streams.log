@@ -1,0 +1,23 @@
+[0.458s] Invoking command in '/home/supan/RT/aisd/a3/build/model': PYTHONPATH=/home/supan/RT/aisd/a3/build/model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/supan/RT/aisd/a3/build/model/build --no-deps symlink_data
+[0.659s] running develop
+[0.770s] running egg_info
+[0.770s] creating model.egg-info
+[0.770s] writing model.egg-info/PKG-INFO
+[0.771s] writing dependency_links to model.egg-info/dependency_links.txt
+[0.771s] writing entry points to model.egg-info/entry_points.txt
+[0.771s] writing requirements to model.egg-info/requires.txt
+[0.771s] writing top-level names to model.egg-info/top_level.txt
+[0.771s] writing manifest file 'model.egg-info/SOURCES.txt'
+[0.772s] reading manifest file 'model.egg-info/SOURCES.txt'
+[0.772s] writing manifest file 'model.egg-info/SOURCES.txt'
+[0.773s] running build_ext
+[0.773s] Creating /home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages/model.egg-link (link to .)
+[0.774s] 
+[0.774s] Installed /home/supan/RT/aisd/a3/build/model
+[0.774s] running symlink_data
+[0.774s] creating /home/supan/RT/aisd/a3/install/model/share/ament_index
+[0.774s] creating /home/supan/RT/aisd/a3/install/model/share/ament_index/resource_index
+[0.774s] creating /home/supan/RT/aisd/a3/install/model/share/ament_index/resource_index/packages
+[0.774s] symbolically linking /home/supan/RT/aisd/a3/build/model/resource/model -> /home/supan/RT/aisd/a3/install/model/share/ament_index/resource_index/packages
+[0.774s] symbolically linking /home/supan/RT/aisd/a3/build/model/package.xml -> /home/supan/RT/aisd/a3/install/model/share/model
+[0.805s] Invoked command in '/home/supan/RT/aisd/a3/build/model' returned '0': PYTHONPATH=/home/supan/RT/aisd/a3/build/model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/supan/RT/aisd/a3/build/model/build --no-deps symlink_data

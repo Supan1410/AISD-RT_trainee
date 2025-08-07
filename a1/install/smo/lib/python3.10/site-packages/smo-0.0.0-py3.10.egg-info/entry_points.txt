@@ -1,0 +1,5 @@
+[console_scripts]
+cl = smo.client_node:main
+ma = smo.marker:main
+sm = smo.smo_node:main
+

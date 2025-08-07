@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from serviceinterface/srv/Getk.srv
+// generated code does not contain a copyright notice
+
+
+module serviceinterface {
+  module srv {
+    struct Getk_Request {
+      float k;
+    };
+    struct Getk_Response {
+      float t;
+    };
+  };
+};

@@ -1,0 +1,359 @@
+[0.000000] (-) TimerEvent: {}
+[0.000569] (serviceinterface) JobQueued: {'identifier': 'serviceinterface', 'dependencies': OrderedDict()}
+[0.001123] (smo) JobQueued: {'identifier': 'smo', 'dependencies': OrderedDict()}
+[0.001376] (serviceinterface) JobStarted: {'identifier': 'serviceinterface'}
+[0.009940] (smo) JobStarted: {'identifier': 'smo'}
+[0.020491] (serviceinterface) JobProgress: {'identifier': 'serviceinterface', 'progress': 'cmake'}
+[0.021488] (serviceinterface) Command: {'cmd': ['/usr/bin/cmake', '/home/supan/RT/aisd/a1/src/serviceinterface', '-DCMAKE_INSTALL_PREFIX=/home/supan/RT/aisd/a1/install/serviceinterface'], 'cwd': '/home/supan/RT/aisd/a1/build/serviceinterface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'supan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/supan/RT/sim/install/eufs_plugins/lib:/home/supan/RT/sim/install/eufs_models/lib:/home/supan/RT/sim/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1971'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/supan/RT/sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'supan'), ('EUFS_MASTER', '/home/supan/RT/sim/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'supan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/supan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Supan-Linux:@/tmp/.ICE-unix/1971,unix/Supan-Linux:/tmp/.ICE-unix/1971'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80295f60_cedc_4844_92b7_c6f4cc6bff86'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/supan/RT/aisd/a1/build/serviceinterface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/supan/RT/sim/install/eufs_launcher/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_tracks/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_rqt/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_racecar/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble')]), 'shell': False}
+[0.099510] (-) TimerEvent: {}
+[0.187664] (serviceinterface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199690] (-) TimerEvent: {}
+[0.300341] (-) TimerEvent: {}
+[0.379291] (serviceinterface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.392413] (serviceinterface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400414] (-) TimerEvent: {}
+[0.500816] (-) TimerEvent: {}
+[0.515287] (serviceinterface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.529878] (serviceinterface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.531358] (serviceinterface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.532784] (serviceinterface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.539422] (serviceinterface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600936] (-) TimerEvent: {}
+[0.701992] (serviceinterface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.702303] (-) TimerEvent: {}
+[0.714803] (serviceinterface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.715329] (serviceinterface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.716102] (serviceinterface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.728881] (serviceinterface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.802481] (-) TimerEvent: {}
+[0.903168] (-) TimerEvent: {}
+[1.003721] (-) TimerEvent: {}
+[1.090443] (serviceinterface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.103842] (-) TimerEvent: {}
+[1.204278] (-) TimerEvent: {}
+[1.289979] (serviceinterface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.296386] (serviceinterface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.304407] (-) TimerEvent: {}
+[1.309970] (serviceinterface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.347116] (smo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/smo', 'build', '--build-base', '/home/supan/RT/aisd/a1/build/smo/build', 'install', '--record', '/home/supan/RT/aisd/a1/build/smo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/supan/RT/aisd/a1/src/smo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'supan', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/supan/RT/sim/install/eufs_plugins/lib:/home/supan/RT/sim/install/eufs_models/lib:/home/supan/RT/sim/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/supan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1971', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/supan/RT/sim/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'supan', 'EUFS_MASTER': '/home/supan/RT/sim/src', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'supan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/supan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Supan-Linux:@/tmp/.ICE-unix/1971,unix/Supan-Linux:/tmp/.ICE-unix/1971', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/80295f60_cedc_4844_92b7_c6f4cc6bff86', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/supan/RT/aisd/a1/build/smo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/supan/RT/aisd/a1/build/smo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_launcher/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_tracks/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_rqt/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_racecar/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs'}, 'shell': False}
+[1.404024] (serviceinterface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.404492] (-) TimerEvent: {}
+[1.504844] (-) TimerEvent: {}
+[1.605258] (-) TimerEvent: {}
+[1.705711] (-) TimerEvent: {}
+[1.787484] (smo) StdoutLine: {'line': b'running egg_info\n'}
+[1.788184] (smo) StdoutLine: {'line': b'creating ../../build/smo/smo.egg-info\n'}
+[1.788465] (smo) StdoutLine: {'line': b'writing ../../build/smo/smo.egg-info/PKG-INFO\n'}
+[1.788722] (smo) StdoutLine: {'line': b'writing dependency_links to ../../build/smo/smo.egg-info/dependency_links.txt\n'}
+[1.789010] (smo) StdoutLine: {'line': b'writing entry points to ../../build/smo/smo.egg-info/entry_points.txt\n'}
+[1.789183] (smo) StdoutLine: {'line': b'writing requirements to ../../build/smo/smo.egg-info/requires.txt\n'}
+[1.789261] (smo) StdoutLine: {'line': b'writing top-level names to ../../build/smo/smo.egg-info/top_level.txt\n'}
+[1.789366] (smo) StdoutLine: {'line': b"writing manifest file '../../build/smo/smo.egg-info/SOURCES.txt'\n"}
+[1.791651] (smo) StdoutLine: {'line': b"reading manifest file '../../build/smo/smo.egg-info/SOURCES.txt'\n"}
+[1.791899] (smo) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.792591] (smo) StdoutLine: {'line': b"writing manifest file '../../build/smo/smo.egg-info/SOURCES.txt'\n"}
+[1.792854] (smo) StdoutLine: {'line': b'running build\n'}
+[1.793074] (smo) StdoutLine: {'line': b'running build_py\n'}
+[1.793331] (smo) StdoutLine: {'line': b'creating /home/supan/RT/aisd/a1/build/smo/build\n'}
+[1.793489] (smo) StdoutLine: {'line': b'creating /home/supan/RT/aisd/a1/build/smo/build/lib\n'}
+[1.793633] (smo) StdoutLine: {'line': b'creating /home/supan/RT/aisd/a1/build/smo/build/lib/smo\n'}
+[1.793776] (smo) StdoutLine: {'line': b'copying smo/client_node.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo\n'}
+[1.793916] (smo) StdoutLine: {'line': b'copying smo/__init__.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo\n'}
+[1.794124] (smo) StdoutLine: {'line': b'copying smo/smo_node.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo\n'}
+[1.794460] (smo) StdoutLine: {'line': b'copying smo/marker.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo\n'}
+[1.794563] (smo) StdoutLine: {'line': b'running install\n'}
+[1.794916] (smo) StdoutLine: {'line': b'running install_lib\n'}
+[1.795538] (smo) StdoutLine: {'line': b'creating /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo\n'}
+[1.795795] (smo) StdoutLine: {'line': b'copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/client_node.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo\n'}
+[1.796030] (smo) StdoutLine: {'line': b'copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/__init__.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo\n'}
+[1.796270] (smo) StdoutLine: {'line': b'copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/smo_node.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo\n'}
+[1.796426] (smo) StdoutLine: {'line': b'copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/marker.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo\n'}
+[1.796746] (smo) StdoutLine: {'line': b'byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/client_node.py to client_node.cpython-310.pyc\n'}
+[1.797499] (smo) StdoutLine: {'line': b'byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/__init__.py to __init__.cpython-310.pyc\n'}
+[1.797739] (smo) StdoutLine: {'line': b'byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/smo_node.py to smo_node.cpython-310.pyc\n'}
+[1.798953] (smo) StdoutLine: {'line': b'byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/marker.py to marker.cpython-310.pyc\n'}
+[1.800125] (smo) StdoutLine: {'line': b'running install_data\n'}
+[1.800432] (smo) StdoutLine: {'line': b'creating /home/supan/RT/aisd/a1/install/smo/share/ament_index\n'}
+[1.800580] (smo) StdoutLine: {'line': b'creating /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index\n'}
+[1.800721] (smo) StdoutLine: {'line': b'creating /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index/packages\n'}
+[1.800860] (smo) StdoutLine: {'line': b'copying resource/smo -> /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index/packages\n'}
+[1.801105] (smo) StdoutLine: {'line': b'copying package.xml -> /home/supan/RT/aisd/a1/install/smo/share/smo\n'}
+[1.801263] (smo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.803951] (smo) StdoutLine: {'line': b'Copying ../../build/smo/smo.egg-info to /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo-0.0.0-py3.10.egg-info\n'}
+[1.804923] (smo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.805784] (-) TimerEvent: {}
+[1.841616] (smo) StdoutLine: {'line': b'Installing cl script to /home/supan/RT/aisd/a1/install/smo/lib/smo\n'}
+[1.842006] (smo) StdoutLine: {'line': b'Installing ma script to /home/supan/RT/aisd/a1/install/smo/lib/smo\n'}
+[1.842198] (smo) StdoutLine: {'line': b'Installing sm script to /home/supan/RT/aisd/a1/install/smo/lib/smo\n'}
+[1.842414] (smo) StdoutLine: {'line': b"writing list of installed files to '/home/supan/RT/aisd/a1/build/smo/install.log'\n"}
+[1.897685] (smo) CommandEnded: {'returncode': 0}
+[1.906204] (-) TimerEvent: {}
+[1.915079] (smo) JobEnded: {'identifier': 'smo', 'rc': 0}
+[1.967751] (serviceinterface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.006321] (-) TimerEvent: {}
+[2.106710] (-) TimerEvent: {}
+[2.207151] (-) TimerEvent: {}
+[2.293872] (serviceinterface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.307264] (-) TimerEvent: {}
+[2.407633] (-) TimerEvent: {}
+[2.508012] (-) TimerEvent: {}
+[2.608365] (-) TimerEvent: {}
+[2.708737] (-) TimerEvent: {}
+[2.720208] (serviceinterface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.759908] (serviceinterface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.763531] (serviceinterface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.808856] (-) TimerEvent: {}
+[2.821345] (serviceinterface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.821844] (serviceinterface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.822005] (serviceinterface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.822171] (serviceinterface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.862559] (serviceinterface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.908972] (-) TimerEvent: {}
+[2.919916] (serviceinterface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.949401] (serviceinterface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.950908] (serviceinterface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.954279] (serviceinterface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.992971] (serviceinterface) StdoutLine: {'line': b'-- Generating done\n'}
+[3.008159] (serviceinterface) StdoutLine: {'line': b'-- Build files have been written to: /home/supan/RT/aisd/a1/build/serviceinterface\n'}
+[3.009057] (-) TimerEvent: {}
+[3.016174] (serviceinterface) CommandEnded: {'returncode': 0}
+[3.016972] (serviceinterface) JobProgress: {'identifier': 'serviceinterface', 'progress': 'build'}
+[3.017970] (serviceinterface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/supan/RT/aisd/a1/build/serviceinterface', '--', '-j12', '-l12'], 'cwd': '/home/supan/RT/aisd/a1/build/serviceinterface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'supan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/supan/RT/sim/install/eufs_plugins/lib:/home/supan/RT/sim/install/eufs_models/lib:/home/supan/RT/sim/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1971'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/supan/RT/sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'supan'), ('EUFS_MASTER', '/home/supan/RT/sim/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'supan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/supan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Supan-Linux:@/tmp/.ICE-unix/1971,unix/Supan-Linux:/tmp/.ICE-unix/1971'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80295f60_cedc_4844_92b7_c6f4cc6bff86'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/supan/RT/aisd/a1/build/serviceinterface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/supan/RT/sim/install/eufs_launcher/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_tracks/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_rqt/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_racecar/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble')]), 'shell': False}
+[3.090226] (serviceinterface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.108636] (serviceinterface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.109141] (-) TimerEvent: {}
+[3.126796] (serviceinterface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_serviceinterface\n'}
+[3.209298] (-) TimerEvent: {}
+[3.309735] (-) TimerEvent: {}
+[3.410133] (-) TimerEvent: {}
+[3.510543] (-) TimerEvent: {}
+[3.607471] (serviceinterface) StdoutLine: {'line': b'running egg_info\n'}
+[3.608700] (serviceinterface) StdoutLine: {'line': b'creating serviceinterface.egg-info\n'}
+[3.609114] (serviceinterface) StdoutLine: {'line': b'writing serviceinterface.egg-info/PKG-INFO\n'}
+[3.609519] (serviceinterface) StdoutLine: {'line': b'writing dependency_links to serviceinterface.egg-info/dependency_links.txt\n'}
+[3.609904] (serviceinterface) StdoutLine: {'line': b'writing top-level names to serviceinterface.egg-info/top_level.txt\n'}
+[3.610421] (serviceinterface) StdoutLine: {'line': b"writing manifest file 'serviceinterface.egg-info/SOURCES.txt'\n"}
+[3.610628] (-) TimerEvent: {}
+[3.614810] (serviceinterface) StdoutLine: {'line': b"reading manifest file 'serviceinterface.egg-info/SOURCES.txt'\n"}
+[3.616516] (serviceinterface) StdoutLine: {'line': b"writing manifest file 'serviceinterface.egg-info/SOURCES.txt'\n"}
+[3.617784] (serviceinterface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/serviceinterface__rosidl_generator_c.dir/rosidl_generator_c/serviceinterface/srv/detail/getk__functions.c.o\x1b[0m\n'}
+[3.670087] (serviceinterface) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_serviceinterface_egg\n'}
+[3.710798] (-) TimerEvent: {}
+[3.737515] (serviceinterface) StdoutLine: {'line': b'[  9%] Built target serviceinterface__cpp\n'}
+[3.757908] (serviceinterface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.758327] (serviceinterface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.758540] (serviceinterface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.763320] (serviceinterface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libserviceinterface__rosidl_generator_c.so\x1b[0m\n'}
+[3.810941] (-) TimerEvent: {}
+[3.846309] (serviceinterface) StdoutLine: {'line': b'[ 22%] Built target serviceinterface__rosidl_generator_c\n'}
+[3.866577] (serviceinterface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.870628] (serviceinterface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.871483] (serviceinterface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.911106] (-) TimerEvent: {}
+[4.011635] (-) TimerEvent: {}
+[4.112123] (-) TimerEvent: {}
+[4.212618] (-) TimerEvent: {}
+[4.266418] (serviceinterface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serviceinterface/srv/getk__type_support.cpp.o\x1b[0m\n'}
+[4.312756] (-) TimerEvent: {}
+[4.413341] (-) TimerEvent: {}
+[4.414967] (serviceinterface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serviceinterface/srv/detail/getk__type_support.cpp.o\x1b[0m\n'}
+[4.477589] (serviceinterface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serviceinterface/srv/detail/dds_fastrtps/getk__type_support.cpp.o\x1b[0m\n'}
+[4.507355] (serviceinterface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_c.dir/rosidl_typesupport_c/serviceinterface/srv/getk__type_support.cpp.o\x1b[0m\n'}
+[4.513469] (-) TimerEvent: {}
+[4.514242] (serviceinterface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serviceinterface/srv/detail/getk__type_support.c.o\x1b[0m\n'}
+[4.524777] (serviceinterface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/serviceinterface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serviceinterface/srv/detail/getk__type_support_c.cpp.o\x1b[0m\n'}
+[4.591513] (serviceinterface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.596295] (serviceinterface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libserviceinterface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.613621] (-) TimerEvent: {}
+[4.672843] (serviceinterface) StdoutLine: {'line': b'[ 58%] Built target serviceinterface__rosidl_typesupport_introspection_c\n'}
+[4.701314] (serviceinterface) StdoutLine: {'line': b'[ 58%] Built target serviceinterface__rosidl_typesupport_c\n'}
+[4.713815] (-) TimerEvent: {}
+[4.814493] (-) TimerEvent: {}
+[4.914994] (-) TimerEvent: {}
+[4.918720] (serviceinterface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.015151] (-) TimerEvent: {}
+[5.020137] (serviceinterface) StdoutLine: {'line': b'[ 61%] Built target serviceinterface__rosidl_typesupport_cpp\n'}
+[5.115338] (-) TimerEvent: {}
+[5.216001] (-) TimerEvent: {}
+[5.276886] (serviceinterface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.286935] (serviceinterface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.293527] (serviceinterface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libserviceinterface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.316154] (-) TimerEvent: {}
+[5.383682] (serviceinterface) StdoutLine: {'line': b'[ 70%] Built target serviceinterface__rosidl_typesupport_introspection_cpp\n'}
+[5.416298] (-) TimerEvent: {}
+[5.455635] (serviceinterface) StdoutLine: {'line': b'[ 70%] Built target serviceinterface__rosidl_typesupport_fastrtps_c\n'}
+[5.467560] (serviceinterface) StdoutLine: {'line': b'[ 70%] Built target serviceinterface__rosidl_typesupport_fastrtps_cpp\n'}
+[5.500580] (serviceinterface) StdoutLine: {'line': b'[ 70%] Built target serviceinterface\n'}
+[5.516418] (-) TimerEvent: {}
+[5.532175] (serviceinterface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.616566] (-) TimerEvent: {}
+[5.716945] (-) TimerEvent: {}
+[5.817312] (-) TimerEvent: {}
+[5.917715] (-) TimerEvent: {}
+[6.018130] (-) TimerEvent: {}
+[6.065847] (serviceinterface) StdoutLine: {'line': b'[ 74%] Built target serviceinterface__py\n'}
+[6.100915] (serviceinterface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/serviceinterface__rosidl_generator_py.dir/rosidl_generator_py/serviceinterface/srv/_getk_s.c.o\x1b[0m\n'}
+[6.118260] (-) TimerEvent: {}
+[6.218760] (-) TimerEvent: {}
+[6.295661] (serviceinterface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serviceinterface/libserviceinterface__rosidl_generator_py.so\x1b[0m\n'}
+[6.318871] (-) TimerEvent: {}
+[6.366421] (serviceinterface) StdoutLine: {'line': b'[ 80%] Built target serviceinterface__rosidl_generator_py\n'}
+[6.399939] (serviceinterface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.400600] (serviceinterface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.402639] (serviceinterface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/serviceinterface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.419006] (-) TimerEvent: {}
+[6.519493] (-) TimerEvent: {}
+[6.579073] (serviceinterface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.582063] (serviceinterface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.614889] (serviceinterface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.619602] (-) TimerEvent: {}
+[6.641296] (serviceinterface) StdoutLine: {'line': b'[100%] Built target serviceinterface__rosidl_typesupport_c__pyext\n'}
+[6.641807] (serviceinterface) StdoutLine: {'line': b'[100%] Built target serviceinterface__rosidl_typesupport_introspection_c__pyext\n'}
+[6.682037] (serviceinterface) StdoutLine: {'line': b'[100%] Built target serviceinterface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.702472] (serviceinterface) CommandEnded: {'returncode': 0}
+[6.703550] (serviceinterface) JobProgress: {'identifier': 'serviceinterface', 'progress': 'install'}
+[6.717514] (serviceinterface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/supan/RT/aisd/a1/build/serviceinterface'], 'cwd': '/home/supan/RT/aisd/a1/build/serviceinterface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'supan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/supan/RT/sim/install/eufs_plugins/lib:/home/supan/RT/sim/install/eufs_models/lib:/home/supan/RT/sim/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1971'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/supan/RT/sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'supan'), ('EUFS_MASTER', '/home/supan/RT/sim/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'supan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/supan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Supan-Linux:@/tmp/.ICE-unix/1971,unix/Supan-Linux:/tmp/.ICE-unix/1971'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80295f60_cedc_4844_92b7_c6f4cc6bff86'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/supan/RT/aisd/a1/build/serviceinterface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=917b2b1a3cf76760d0c8045167d2e86c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/supan/RT/sim/install/eufs_launcher/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_tracks/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_rqt/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_racecar/lib/python3.10/site-packages:/home/supan/RT/sim/install/eufs_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs:/home/supan/RT/sim/install/eufs_launcher:/home/supan/RT/sim/install/eufs_tracks:/home/supan/RT/sim/install/eufs_rqt:/home/supan/RT/sim/install/eufs_racecar:/opt/ros/humble')]), 'shell': False}
+[6.719818] (-) TimerEvent: {}
+[6.731513] (serviceinterface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.731956] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/rosidl_interfaces/serviceinterface\n'}
+[6.732303] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface\n'}
+[6.732530] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv\n'}
+[6.732642] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/getk.h\n'}
+[6.732845] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail\n'}
+[6.732963] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__struct.h\n'}
+[6.733221] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.h\n'}
+[6.733351] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__functions.h\n'}
+[6.733545] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__functions.c\n'}
+[6.733754] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg\n'}
+[6.733893] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.734275] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/library_path.sh\n'}
+[6.734538] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/library_path.dsv\n'}
+[6.734937] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_c.so\n'}
+[6.735664] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_c.so" to ""\n'}
+[6.735813] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface\n'}
+[6.735947] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv\n'}
+[6.736085] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail\n'}
+[6.736164] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_fastrtps_c.h\n'}
+[6.736265] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg\n'}
+[6.736368] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.736616] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[6.737263] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.737407] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface\n'}
+[6.737534] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv\n'}
+[6.737669] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail\n'}
+[6.737764] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_introspection_c.h\n'}
+[6.737881] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.c\n'}
+[6.738002] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg\n'}
+[6.738120] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.738388] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_c.so\n'}
+[6.738860] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.739025] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_c.so\n'}
+[6.739305] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_c.so" to ""\n'}
+[6.739482] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface\n'}
+[6.739632] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv\n'}
+[6.739713] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/getk.hpp\n'}
+[6.739792] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail\n'}
+[6.739867] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__traits.hpp\n'}
+[6.740071] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__builder.hpp\n'}
+[6.740181] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__struct.hpp\n'}
+[6.740258] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.hpp\n'}
+[6.740348] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg\n'}
+[6.740435] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.740512] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface\n'}
+[6.740625] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv\n'}
+[6.740766] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail\n'}
+[6.740838] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/dds_fastrtps\n'}
+[6.740901] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.740967] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg\n'}
+[6.741058] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.741147] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.741264] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.741401] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface\n'}
+[6.741472] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv\n'}
+[6.741541] (serviceinterface) StdoutLine: {'line': b'-- Up-to-date: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail\n'}
+[6.741657] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__type_support.cpp\n'}
+[6.741719] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/include/serviceinterface/serviceinterface/srv/detail/getk__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.741783] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[6.741898] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.742034] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_cpp.so\n'}
+[6.742322] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_typesupport_cpp.so" to ""\n'}
+[6.742432] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/pythonpath.sh\n'}
+[6.742545] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/pythonpath.dsv\n'}
+[6.742690] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info\n'}
+[6.742959] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.743336] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.743543] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.743710] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.743875] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface\n'}
+[6.744241] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.744428] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/libserviceinterface__rosidl_generator_py.so\n'}
+[6.744599] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.744754] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.744985] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.745344] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv\n'}
+[6.745564] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/_getk.py\n'}
+[6.745723] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/__init__.py\n'}
+[6.745876] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/_getk_s.c\n'}
+[6.746026] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.746208] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/__init__.py\n'}
+[6.746374] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/_serviceinterface_s.ep.rosidl_typesupport_c.c\n'}
+[6.807381] (serviceinterface) StdoutLine: {'line': b"Listing '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface'...\n"}
+[6.807673] (serviceinterface) StdoutLine: {'line': b"Compiling '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/__init__.py'...\n"}
+[6.807817] (serviceinterface) StdoutLine: {'line': b"Listing '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv'...\n"}
+[6.807952] (serviceinterface) StdoutLine: {'line': b"Compiling '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/__init__.py'...\n"}
+[6.808102] (serviceinterface) StdoutLine: {'line': b"Compiling '/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/srv/_getk.py'...\n"}
+[6.815774] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.816262] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.816647] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.817152] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.817445] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.817828] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/local/lib/python3.10/dist-packages/serviceinterface/serviceinterface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.818062] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_py.so\n'}
+[6.818592] (serviceinterface) StdoutLine: {'line': b'-- Set runtime path of "/home/supan/RT/aisd/a1/install/serviceinterface/lib/libserviceinterface__rosidl_generator_py.so" to ""\n'}
+[6.818905] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk.idl\n'}
+[6.819100] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk.srv\n'}
+[6.819253] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk_Request.msg\n'}
+[6.819406] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/srv/Getk_Response.msg\n'}
+[6.819482] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/package_run_dependencies/serviceinterface\n'}
+[6.819596] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/parent_prefix_path/serviceinterface\n'}
+[6.819756] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/ament_prefix_path.sh\n'}
+[6.819836] (-) TimerEvent: {}
+[6.820077] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/ament_prefix_path.dsv\n'}
+[6.820178] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/path.sh\n'}
+[6.820256] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/environment/path.dsv\n'}
+[6.820383] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.bash\n'}
+[6.820529] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.sh\n'}
+[6.820641] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.zsh\n'}
+[6.820723] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/local_setup.dsv\n'}
+[6.820873] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.dsv\n'}
+[6.820951] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/ament_index/resource_index/packages/serviceinterface\n'}
+[6.821078] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_cExport.cmake\n'}
+[6.821207] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.821322] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.821434] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.821543] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.821654] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.821765] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cExport.cmake\n'}
+[6.821896] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.822069] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_cppExport.cmake\n'}
+[6.822291] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.822475] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.822586] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.822706] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.822822] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cppExport.cmake\n'}
+[6.822950] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.823068] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_pyExport.cmake\n'}
+[6.823214] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/export_serviceinterface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.823295] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/rosidl_cmake-extras.cmake\n'}
+[6.823404] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.823544] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.823658] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.823810] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.823926] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.824034] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.824218] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterfaceConfig.cmake\n'}
+[6.824288] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/cmake/serviceinterfaceConfig-version.cmake\n'}
+[6.824374] (serviceinterface) StdoutLine: {'line': b'-- Installing: /home/supan/RT/aisd/a1/install/serviceinterface/share/serviceinterface/package.xml\n'}
+[6.827207] (serviceinterface) CommandEnded: {'returncode': 0}
+[6.852130] (serviceinterface) JobEnded: {'identifier': 'serviceinterface', 'rc': 0}
+[6.853061] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[0.501s] Invoking command in '/home/supan/RT/aisd/a3/src/racecar': CMAKE_PREFIX_PATH=/home/supan/RT/aisd/a3/install/racecar_description:/home/supan/RT/aisd/a3/install/racecar_plugins:/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs PYTHONPATH=/home/supan/RT/aisd/a3/build/racecar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar build --build-base /home/supan/RT/aisd/a3/build/racecar/build install --record /home/supan/RT/aisd/a3/build/racecar/install.log --single-version-externally-managed install_data
+[0.675s] running egg_info
+[0.675s] writing ../../build/racecar/racecar.egg-info/PKG-INFO
+[0.675s] writing dependency_links to ../../build/racecar/racecar.egg-info/dependency_links.txt
+[0.675s] writing entry points to ../../build/racecar/racecar.egg-info/entry_points.txt
+[0.675s] writing requirements to ../../build/racecar/racecar.egg-info/requires.txt
+[0.675s] writing top-level names to ../../build/racecar/racecar.egg-info/top_level.txt
+[0.677s] reading manifest file '../../build/racecar/racecar.egg-info/SOURCES.txt'
+[0.677s] writing manifest file '../../build/racecar/racecar.egg-info/SOURCES.txt'
+[0.677s] running build
+[0.677s] running build_py
+[0.677s] running install
+[0.677s] running install_lib
+[0.678s] running install_data
+[0.678s] running install_egg_info
+[0.680s] removing '/home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar-0.0.0-py3.10.egg-info' (and everything under it)
+[0.680s] Copying ../../build/racecar/racecar.egg-info to /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar-0.0.0-py3.10.egg-info
+[0.680s] running install_scripts
+[0.694s] Installing control script to /home/supan/RT/aisd/a3/install/racecar/lib/racecar
+[0.694s] writing list of installed files to '/home/supan/RT/aisd/a3/build/racecar/install.log'
+[0.712s] Invoked command in '/home/supan/RT/aisd/a3/src/racecar' returned '0': CMAKE_PREFIX_PATH=/home/supan/RT/aisd/a3/install/racecar_description:/home/supan/RT/aisd/a3/install/racecar_plugins:/home/supan/RT/sim/install/eufs_sensors:/home/supan/RT/sim/install/eufs_plugins:/home/supan/RT/sim/install/eufs_models:/home/supan/RT/sim/install/eufs_msgs PYTHONPATH=/home/supan/RT/aisd/a3/build/racecar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar build --build-base /home/supan/RT/aisd/a3/build/racecar/build install --record /home/supan/RT/aisd/a3/build/racecar/install.log --single-version-externally-managed install_data

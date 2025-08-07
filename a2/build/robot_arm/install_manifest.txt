@@ -1,0 +1,4 @@
+/home/supan/RT/aisd/robot_arm_ws_dup/install/robot_arm/share/robot_arm/sim.launch.py
+/home/supan/RT/aisd/robot_arm_ws_dup/install/robot_arm/share/robot_arm/__pycache__/sim.launch.cpython-310.pyc
+/home/supan/RT/aisd/robot_arm_ws_dup/install/robot_arm/share/robot_arm/config/robot_control.yaml
+/home/supan/RT/aisd/robot_arm_ws_dup/install/robot_arm/share/robot_arm/urdf/robot.urdf

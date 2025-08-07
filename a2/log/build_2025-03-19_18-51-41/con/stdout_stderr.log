@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/con/con.egg-info/PKG-INFO
+writing dependency_links to ../../build/con/con.egg-info/dependency_links.txt
+writing entry points to ../../build/con/con.egg-info/entry_points.txt
+writing requirements to ../../build/con/con.egg-info/requires.txt
+writing top-level names to ../../build/con/con.egg-info/top_level.txt
+reading manifest file '../../build/con/con.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/con/con.egg-info/SOURCES.txt'
+running build
+running build_py
+copying con/cli.py -> /home/supan/RT/aisd/robot_arm_ws_dup/build/con/build/lib/con
+running install
+running install_lib
+copying /home/supan/RT/aisd/robot_arm_ws_dup/build/con/build/lib/con/cli.py -> /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con
+byte-compiling /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con/cli.py to cli.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/con/con.egg-info to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cli script to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/con
+Installing ee script to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/con
+writing list of installed files to '/home/supan/RT/aisd/robot_arm_ws_dup/build/con/install.log'

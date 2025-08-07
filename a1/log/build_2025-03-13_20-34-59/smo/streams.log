@@ -1,0 +1,46 @@
+[1.339s] Invoking command in '/home/supan/RT/aisd/a1/src/smo': PYTHONPATH=/home/supan/RT/aisd/a1/build/smo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smo build --build-base /home/supan/RT/aisd/a1/build/smo/build install --record /home/supan/RT/aisd/a1/build/smo/install.log --single-version-externally-managed install_data
+[1.777s] running egg_info
+[1.778s] creating ../../build/smo/smo.egg-info
+[1.778s] writing ../../build/smo/smo.egg-info/PKG-INFO
+[1.778s] writing dependency_links to ../../build/smo/smo.egg-info/dependency_links.txt
+[1.778s] writing entry points to ../../build/smo/smo.egg-info/entry_points.txt
+[1.779s] writing requirements to ../../build/smo/smo.egg-info/requires.txt
+[1.779s] writing top-level names to ../../build/smo/smo.egg-info/top_level.txt
+[1.779s] writing manifest file '../../build/smo/smo.egg-info/SOURCES.txt'
+[1.781s] reading manifest file '../../build/smo/smo.egg-info/SOURCES.txt'
+[1.781s] adding license file 'LICENSE'
+[1.782s] writing manifest file '../../build/smo/smo.egg-info/SOURCES.txt'
+[1.782s] running build
+[1.782s] running build_py
+[1.783s] creating /home/supan/RT/aisd/a1/build/smo/build
+[1.783s] creating /home/supan/RT/aisd/a1/build/smo/build/lib
+[1.783s] creating /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+[1.783s] copying smo/client_node.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+[1.783s] copying smo/__init__.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+[1.784s] copying smo/smo_node.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+[1.784s] copying smo/marker.py -> /home/supan/RT/aisd/a1/build/smo/build/lib/smo
+[1.784s] running install
+[1.784s] running install_lib
+[1.785s] creating /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+[1.785s] copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/client_node.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+[1.786s] copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/__init__.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+[1.786s] copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/smo_node.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+[1.786s] copying /home/supan/RT/aisd/a1/build/smo/build/lib/smo/marker.py -> /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo
+[1.786s] byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/client_node.py to client_node.cpython-310.pyc
+[1.787s] byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/__init__.py to __init__.cpython-310.pyc
+[1.787s] byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/smo_node.py to smo_node.cpython-310.pyc
+[1.788s] byte-compiling /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo/marker.py to marker.cpython-310.pyc
+[1.790s] running install_data
+[1.790s] creating /home/supan/RT/aisd/a1/install/smo/share/ament_index
+[1.790s] creating /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index
+[1.790s] creating /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index/packages
+[1.790s] copying resource/smo -> /home/supan/RT/aisd/a1/install/smo/share/ament_index/resource_index/packages
+[1.791s] copying package.xml -> /home/supan/RT/aisd/a1/install/smo/share/smo
+[1.791s] running install_egg_info
+[1.793s] Copying ../../build/smo/smo.egg-info to /home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages/smo-0.0.0-py3.10.egg-info
+[1.794s] running install_scripts
+[1.831s] Installing cl script to /home/supan/RT/aisd/a1/install/smo/lib/smo
+[1.831s] Installing ma script to /home/supan/RT/aisd/a1/install/smo/lib/smo
+[1.832s] Installing sm script to /home/supan/RT/aisd/a1/install/smo/lib/smo
+[1.832s] writing list of installed files to '/home/supan/RT/aisd/a1/build/smo/install.log'
+[1.887s] Invoked command in '/home/supan/RT/aisd/a1/src/smo' returned '0': PYTHONPATH=/home/supan/RT/aisd/a1/build/smo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a1/install/smo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smo build --build-base /home/supan/RT/aisd/a1/build/smo/build install --record /home/supan/RT/aisd/a1/build/smo/install.log --single-version-externally-managed install_data

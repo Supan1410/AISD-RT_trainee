@@ -1,0 +1,24 @@
+[0.539s] Invoking command in '/home/supan/RT/aisd/robot_arm_ws_dup/build/con': PYTHONPATH=/home/supan/RT/aisd/robot_arm_ws_dup/build/con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/supan/RT/aisd/robot_arm_ws_dup/build/con/build --no-deps symlink_data
+[0.720s] running develop
+[0.817s] running egg_info
+[0.817s] creating con.egg-info
+[0.817s] writing con.egg-info/PKG-INFO
+[0.817s] writing dependency_links to con.egg-info/dependency_links.txt
+[0.817s] writing entry points to con.egg-info/entry_points.txt
+[0.817s] writing requirements to con.egg-info/requires.txt
+[0.817s] writing top-level names to con.egg-info/top_level.txt
+[0.817s] writing manifest file 'con.egg-info/SOURCES.txt'
+[0.819s] reading manifest file 'con.egg-info/SOURCES.txt'
+[0.819s] writing manifest file 'con.egg-info/SOURCES.txt'
+[0.820s] running build_ext
+[0.820s] Creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages/con.egg-link (link to .)
+[0.821s] Installing ee script to /home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/con
+[0.821s] 
+[0.821s] Installed /home/supan/RT/aisd/robot_arm_ws_dup/build/con
+[0.821s] running symlink_data
+[0.821s] creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index
+[0.821s] creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index/resource_index
+[0.821s] creating /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index/resource_index/packages
+[0.821s] symbolically linking /home/supan/RT/aisd/robot_arm_ws_dup/build/con/resource/con -> /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/ament_index/resource_index/packages
+[0.821s] symbolically linking /home/supan/RT/aisd/robot_arm_ws_dup/build/con/package.xml -> /home/supan/RT/aisd/robot_arm_ws_dup/install/con/share/con
+[0.846s] Invoked command in '/home/supan/RT/aisd/robot_arm_ws_dup/build/con' returned '0': PYTHONPATH=/home/supan/RT/aisd/robot_arm_ws_dup/build/con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/robot_arm_ws_dup/install/con/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/supan/RT/aisd/robot_arm_ws_dup/build/con/build --no-deps symlink_data

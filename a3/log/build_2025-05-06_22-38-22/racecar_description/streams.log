@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/supan/RT/aisd/a3/build/racecar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/aisd/a3/install/racecar:/home/supan/RT/aisd/a3/install/model:/opt/ros/humble /usr/bin/cmake --build /home/supan/RT/aisd/a3/build/racecar_description -- -j12 -l12
+[0.198s] Invoked command in '/home/supan/RT/aisd/a3/build/racecar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/aisd/a3/install/racecar:/home/supan/RT/aisd/a3/install/model:/opt/ros/humble /usr/bin/cmake --build /home/supan/RT/aisd/a3/build/racecar_description -- -j12 -l12
+[0.205s] Invoking command in '/home/supan/RT/aisd/a3/build/racecar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/aisd/a3/install/racecar:/home/supan/RT/aisd/a3/install/model:/opt/ros/humble /usr/bin/cmake --install /home/supan/RT/aisd/a3/build/racecar_description
+[0.214s] -- Install configuration: ""
+[0.214s] -- Execute custom install script
+[0.214s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/urdf/macros.urdf.xacro
+[0.214s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/urdf/materials.urdf.xacro
+[0.214s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/urdf/racecar.gazebo
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/urdf/racecar.urdf.xacro
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/chassis.STL
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/chassis.dae
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/left_front_wheel.STL
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/left_front_wheel.dae
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.STL
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.dae
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.STL
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.dae
+[0.215s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/right_front_wheel.STL
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/right_front_wheel.dae
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.STL
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.dae
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.STL
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.dae
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/worlds/macros.urdf.xacro
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/worlds/materials.urdf.xacro
+[0.216s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/worlds/racecar.gazebo
+[0.217s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/worlds/racecar.urdf.xacro
+[0.217s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/package.xml
+[0.217s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/ament_index/resource_index/package_run_dependencies/racecar_description
+[0.217s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/ament_index/resource_index/parent_prefix_path/racecar_description
+[0.217s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/environment/ament_prefix_path.sh
+[0.217s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/environment/ament_prefix_path.dsv
+[0.218s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/environment/path.sh
+[0.218s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/environment/path.dsv
+[0.218s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/local_setup.bash
+[0.218s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/local_setup.sh
+[0.218s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/local_setup.zsh
+[0.218s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/local_setup.dsv
+[0.218s] -- Symlinking: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/package.dsv
+[0.226s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/ament_index/resource_index/packages/racecar_description
+[0.226s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/cmake/racecar_descriptionConfig.cmake
+[0.226s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/cmake/racecar_descriptionConfig-version.cmake
+[0.226s] -- Up-to-date symlink: /home/supan/RT/aisd/a3/install/racecar_description/share/racecar_description/package.xml
+[0.228s] Invoked command in '/home/supan/RT/aisd/a3/build/racecar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/supan/RT/aisd/a3/install/racecar:/home/supan/RT/aisd/a3/install/model:/opt/ros/humble /usr/bin/cmake --install /home/supan/RT/aisd/a3/build/racecar_description

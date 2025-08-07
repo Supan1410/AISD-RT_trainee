@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a68903f2efce51d754b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "anint__py",
+					"jsonFile" : "directory-anint__py-89a5f1a7ca851ec65040.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/supan/RT/aisd/robot_arm_ws_dup/build/anint/anint__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "anint",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_anint_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_anint_egg-08e6ac39f4b014ddbae2.json",
+					"name" : "ament_cmake_python_build_anint_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_anint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_anint-8c9b91094f282f2e4cc2.json",
+					"name" : "ament_cmake_python_symlink_anint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint-e528cc1c8ac484781752.json",
+					"name" : "anint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__cpp-37412687fbcd2d39cd6d.json",
+					"name" : "anint__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "anint__py::@4e7488af98bdb7193046",
+					"jsonFile" : "target-anint__py-6eb087c2b9e10fa79dd8.json",
+					"name" : "anint__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_generator_c-090225387ce11c56dc87.json",
+					"name" : "anint__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_generator_py-71d9f1f35ee575a53bc5.json",
+					"name" : "anint__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_c-83d1c8fd4f0018486688.json",
+					"name" : "anint__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_c__pyext-82c8254f5c089e4040ca.json",
+					"name" : "anint__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_cpp-236bb6f9b7f399ef09c9.json",
+					"name" : "anint__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_fastrtps_c-babc4e95ffa48b102aed.json",
+					"name" : "anint__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_fastrtps_c__pyext-05eceefcb13089272449.json",
+					"name" : "anint__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_fastrtps_cpp-53b69bc4fab4db469dd9.json",
+					"name" : "anint__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_introspection_c-c1ddfb99535212d5dd1b.json",
+					"name" : "anint__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_introspection_c__pyext-bb9a828a04c561870fce.json",
+					"name" : "anint__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint__rosidl_typesupport_introspection_cpp-d6be19245e19fd348f0c.json",
+					"name" : "anint__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anint_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anint_uninstall-726fad50325177413aa8.json",
+					"name" : "anint_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ae352139b2b269f473ec.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/supan/RT/aisd/robot_arm_ws_dup/build/anint",
+		"source" : "/home/supan/RT/aisd/robot_arm_ws_dup/src/anint"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

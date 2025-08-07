@@ -1,0 +1,26 @@
+[0.544s] Invoking command in '/home/supan/RT/aisd/a3/src/model': PYTHONPATH=/home/supan/RT/aisd/a3/build/model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/model build --build-base /home/supan/RT/aisd/a3/build/model/build install --record /home/supan/RT/aisd/a3/build/model/install.log --single-version-externally-managed install_data
+[0.744s] running egg_info
+[0.745s] writing ../../build/model/model.egg-info/PKG-INFO
+[0.745s] writing dependency_links to ../../build/model/model.egg-info/dependency_links.txt
+[0.745s] writing entry points to ../../build/model/model.egg-info/entry_points.txt
+[0.745s] writing requirements to ../../build/model/model.egg-info/requires.txt
+[0.745s] writing top-level names to ../../build/model/model.egg-info/top_level.txt
+[0.746s] reading manifest file '../../build/model/model.egg-info/SOURCES.txt'
+[0.746s] adding license file 'LICENSE'
+[0.747s] writing manifest file '../../build/model/model.egg-info/SOURCES.txt'
+[0.747s] running build
+[0.747s] running build_py
+[0.747s] copying model/md.py -> /home/supan/RT/aisd/a3/build/model/build/lib/model
+[0.748s] running install
+[0.748s] running install_lib
+[0.748s] copying /home/supan/RT/aisd/a3/build/model/build/lib/model/md.py -> /home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages/model
+[0.749s] byte-compiling /home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages/model/md.py to md.cpython-310.pyc
+[0.749s] running install_data
+[0.749s] running install_egg_info
+[0.751s] removing '/home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages/model-0.0.0-py3.10.egg-info' (and everything under it)
+[0.751s] Copying ../../build/model/model.egg-info to /home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages/model-0.0.0-py3.10.egg-info
+[0.751s] running install_scripts
+[0.768s] Installing md script to /home/supan/RT/aisd/a3/install/model/lib/model
+[0.768s] Installing vis script to /home/supan/RT/aisd/a3/install/model/lib/model
+[0.768s] writing list of installed files to '/home/supan/RT/aisd/a3/build/model/install.log'
+[0.797s] Invoked command in '/home/supan/RT/aisd/a3/src/model' returned '0': PYTHONPATH=/home/supan/RT/aisd/a3/build/model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/supan/RT/aisd/a3/install/model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/model build --build-base /home/supan/RT/aisd/a3/build/model/build install --record /home/supan/RT/aisd/a3/build/model/install.log --single-version-externally-managed install_data

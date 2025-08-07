@@ -1,0 +1,4 @@
+source;share/serviceinterface/local_setup.bash
+source;share/serviceinterface/local_setup.dsv
+source;share/serviceinterface/local_setup.sh
+source;share/serviceinterface/local_setup.zsh

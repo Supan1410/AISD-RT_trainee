@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "anint__py",
+		"source" : "/home/supan/RT/aisd/robot_arm_ws_dup/build/anint/anint__py"
+	}
+}

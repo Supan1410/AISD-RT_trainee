@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating racecar.egg-info
+writing racecar.egg-info/PKG-INFO
+writing dependency_links to racecar.egg-info/dependency_links.txt
+writing entry points to racecar.egg-info/entry_points.txt
+writing requirements to racecar.egg-info/requires.txt
+writing top-level names to racecar.egg-info/top_level.txt
+writing manifest file 'racecar.egg-info/SOURCES.txt'
+reading manifest file 'racecar.egg-info/SOURCES.txt'
+writing manifest file 'racecar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/supan/RT/aisd/a3/install/racecar/lib/python3.10/site-packages/racecar.egg-link (link to .)
+Installing control script to /home/supan/RT/aisd/a3/install/racecar/lib/racecar
+
+Installed /home/supan/RT/aisd/a3/build/racecar
+running symlink_data
+creating /home/supan/RT/aisd/a3/install/racecar/share/ament_index
+creating /home/supan/RT/aisd/a3/install/racecar/share/ament_index/resource_index
+creating /home/supan/RT/aisd/a3/install/racecar/share/ament_index/resource_index/packages
+symbolically linking /home/supan/RT/aisd/a3/build/racecar/resource/racecar -> /home/supan/RT/aisd/a3/install/racecar/share/ament_index/resource_index/packages
+symbolically linking /home/supan/RT/aisd/a3/build/racecar/package.xml -> /home/supan/RT/aisd/a3/install/racecar/share/racecar
+creating /home/supan/RT/aisd/a3/install/racecar/share/racecar/launch
+symbolically linking /home/supan/RT/aisd/a3/build/racecar/launch/iitb_racecar.launch.py -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/launch
+symbolically linking /home/supan/RT/aisd/a3/build/racecar/launch/joint_controller.launch.py -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/launch
+symbolically linking /home/supan/RT/aisd/a3/build/racecar/launch/robot_state_publisher.launch.py -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/launch
+creating /home/supan/RT/aisd/a3/install/racecar/share/racecar/config
+symbolically linking /home/supan/RT/aisd/a3/build/racecar/config/racecar_control.yaml -> /home/supan/RT/aisd/a3/install/racecar/share/racecar/config

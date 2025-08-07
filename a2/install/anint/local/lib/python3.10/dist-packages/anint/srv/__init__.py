@@ -1,0 +1,1 @@
+/home/supan/RT/aisd/robot_arm_ws_dup/build/anint/rosidl_generator_py/anint/srv/__init__.py
